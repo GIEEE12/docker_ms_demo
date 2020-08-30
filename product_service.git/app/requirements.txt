@@ -9,9 +9,9 @@ flask-swagger-ui==3.18.0
 idna==2.7
 itsdangerous==1.1.0
 Jinja2==2.10
-MarkupSafe==1.1.0
+MarkupSafe==1.1.1
 more-itertools==4.3.0
-mysql-connector==2.1.6
+mysql-connector==2.1.7
 pluggy==0.8.0
 py==1.7.0
 pytest==3.9.1

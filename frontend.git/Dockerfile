@@ -1,6 +1,6 @@
 FROM python:3-alpine
 
-MAINTAINER Peter Fisher
+MAINTAINER demo lbg
 
 COPY ./app/requirements.txt /app/requirements.txt
 
@@ -13,5 +13,5 @@ RUN apk add --update \
 
 COPY ./app /app
 
-CMD python app.py run -h 0.0.0.0
+CMD ["python", "app.py"]
 

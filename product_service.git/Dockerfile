@@ -1,12 +1,14 @@
 FROM python:3-alpine
 
-MAINTAINER Peter Fisher
+MAINTAINER demo lbg
 
 COPY ./app/requirements.txt /app/requirements.txt
 
 WORKDIR /app
 
 RUN apk add --update \
+	--update-cache \
+    	--repository https://alpine.global.ssl.fastly.net/alpine/v3.8/community \
     py-mysqldb \
     gcc \
     libc-dev \
