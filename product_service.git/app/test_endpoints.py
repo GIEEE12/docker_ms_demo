@@ -29,5 +29,5 @@ class TestFlaskApiUsingRequests(TestCase):
 
 obj = TestFlaskApiUsingRequests()
 obj.test_products()
-obj.test_create()
+#obj.test_create()
 obj.test_product()
