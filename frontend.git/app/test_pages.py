@@ -23,8 +23,3 @@ class TestFlaskApiUsingRequests(TestCase):
         print("checking for checkout page")
         response = requests.get('http://172.29.96.1/checkout')
         self.assertEqual(response.status_code, 200)
-obj = TestFlaskApiUsingRequests()
-obj.test_home()
-obj.test_login()
-obj.test_register()
-obj.test_checkout()
